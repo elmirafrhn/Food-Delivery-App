@@ -1,4 +1,4 @@
-## Wolt Assignment Readme
+## Food Delivery App
 
 This project is an Android Kotlin app built as part of an assignment for Wolt.
 It demonstrates clean architecture, reactive programming, dependency injection, and Jetpack Compose UI to display venue data based on location.
