@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="venuesfeature" target="21" />
+      <module name="WoltAssignment.core" target="21" />
+      <module name="WoltAssignment.coroutines-core" target="21" />
+      <module name="WoltAssignment.features.test" target="11" />
+      <module name="WoltAssignment.features.venues" target="21" />
+      <module name="WoltAssignment.network" target="21" />
+      <module name="WoltAssignment.venuesfeature" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

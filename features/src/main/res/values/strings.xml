@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Toast Catalog</string>
+    <string name="network_error_not_found">Resource not found</string>
+    <string name="network_error_unauthorized">Unauthorized access</string>
+    <string name="network_error_forbidden">Forbidden access</string>
+    <string name="network_error_internal_server_error">Internal server error</string>
+    <string name="network_error_unknown">Unknown error</string>
+    <string name="network_error_network_unavailable">Network unavailable</string>
+    <string name="network_error_timeout">Timeout</string>
+    <string name="error_retry">Try again</string>
+</resources>
