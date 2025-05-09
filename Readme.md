@@ -1,6 +1,6 @@
 ## Food Delivery App
 
-This project is an Android Kotlin app built as part of an assignment for Wolt.
+This project is an Android Kotlin app built as part of an assignment.
 It demonstrates clean architecture, reactive programming, dependency injection, and Jetpack Compose UI to display venue data based on location.
 
 <img src="images/screenshot.png" alt="System Design Diagram" width="300"/>
