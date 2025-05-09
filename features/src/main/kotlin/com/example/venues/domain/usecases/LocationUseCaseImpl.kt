@@ -12,7 +12,6 @@ class LocationUseCaseImpl @Inject constructor(
 
     override suspend fun syncVenuesWithLocation() {
         locationRepository.provideLocation().collectLatest { location ->
-            println("elmira collecting in syncVenuesWithLocation()")
             venuesRepository.getVenuesByLocation(location)
         }
     }

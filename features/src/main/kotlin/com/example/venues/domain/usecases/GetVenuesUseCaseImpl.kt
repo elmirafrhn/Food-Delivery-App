@@ -15,8 +15,6 @@ class GetVenuesUseCaseImpl @Inject constructor(
         venuesRepository.getVenues()
             .combine(venuesRepository.getAllVenuesFavorites())
             { venues, favorites ->
-                // TODO: remove all prints and todos
-                println("elmira collecting in invoke()")
                 venues.map { venue ->
                     venue.copy(
                         isFavorite = favorites.find { it.venueId == venue.id }?.isFavorite == true
