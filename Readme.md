@@ -8,7 +8,7 @@ It demonstrates clean architecture, reactive programming, dependency injection, 
 ---
 ## 💡 Design Considerations
 
-- While the project currently uses mocked location data, the system is architected so that the `LocationDataSource` can seamlessly switch to a real GPS location provider.
+- While the project currently uses mocked location data, the system is architected in a way so that the `LocationDataSource` can switch to use a real GPS location provider.
 - Thanks to clean separation of concerns and interface-based design, replacing the mock with a production-ready implementation requires no changes to the rest of the codebase.
 - We have a requirement of "*If the API returns more than 15 venues display only the first 15 from the list.*" Currently I handled it in repository. But in real world this needs to be discussed with the team, below sample questions should be discussed and based on the answers we should decide where taking 15 first item should be added.  
   - is this something that backend should take care of?
