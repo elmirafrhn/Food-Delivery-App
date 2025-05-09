@@ -69,7 +69,7 @@ In a real-world multi-module architecture, depending on the project’s complexi
 Currently, the project uses a basic error handling mechanism. Ideally, we should implement robust error handling at each layer (data, domain, presentation) to ensure errors are properly managed and do not leak or propagate unnecessarily to upper layers.
 
 - **Modularization**
-For sake of simplicity and time I currently have just two modules under features. In features I have venues and core packages. It needs to be restructured by separating core into its own module and converting venues to a module. This way, any additional feature module we develop can be added under the features module separately.
+For sake of simplicity and time I currently have just two modules. In features I have venues and core packages. It needs to be restructured by separating core into its own module and converting venues to a module. This way, any additional feature module we develop can be added under the features module separately.
 Additionally, I currently have Location defined within the data layer of venues, but it could also be refactored into its own separate module.
 
 - **Proper Error Screen**
